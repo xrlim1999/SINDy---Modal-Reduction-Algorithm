@@ -8,10 +8,7 @@ A lightweight Python toolbox that **learns low-order dynamical models** from tim
 
 - **Input:** state or measurement time-series (and optionally control inputs)
 - **Output:** a sparse nonlinear ODE model  
-  \[
-  \dot{x} = f(x, u)
-  \]
-  and a reduced modal representation capturing the dominant dynamics.
+  *ẋ = f(x, u)* and a reduced modal representation capturing the dominant dynamics.
 - **Use cases:** system identification, reduced-order models (ROMs), controller prototyping, digital twins.
 
 ---
